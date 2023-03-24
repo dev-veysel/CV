@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Kontaktdaten</h3>
+    <p>
+        <b>Adresse:</b><br>
+        Bremen / Deutschland <br>
+        <li><a href="mailto:maxmusterman@gmx.de" title="Email senden">Email senden</a></li>
+        <li><a href="https://wa.me/12345678910" title="Whatsapp Nachricht senden">Whatsapp Nachricht senden</a></li>
+    </p>
+
+    <hr>
+    <form  action="mailto:maxmusterman@gmx.de" method="post" enctype="text/plain">
+        <label>Ihr Name:</label>
+        <input type="text" name="ihrName" value=""><br>
+
+        <label>Ihre Mail:</label>
+        <input type="email" name="ihreMail" value=""><br>
+
+        <label>Ihr Text:</label><br>
+        <textarea name="ihrText" id="" cols="30" rows="10"></textarea><br>
+
+        <label>Datei:</label>
+        <input type="file" id="file" name="ihreDatei" multiple /><br>
+        <input type="submit" name="">
+
+    </form>
+
+</body>
+
+</html>
